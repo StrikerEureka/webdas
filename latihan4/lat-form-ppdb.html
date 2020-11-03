@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FORMULIR PPDB JALUR ZONASI TAHUN 2020</title>
+<style>
+.h{
+    border: 5px solid black;
+    padding: 10px;
+	background: solid grey;
+ }
+.posisi{
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+ }
+table, th, td {
+    border-collapse: collapse;
+    border-spacing: 50;
+    padding: 5px;
+}                
+</style>
+</head>
+
+<body>
+<form action="#" style="width: 900px"class="posisi";>
+	<fieldset class="h"/>
+	<table style="width: 900px;">
+	 <center><h2>FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2></center>
+
+	<h2>INFO PENDAFTARAN</h2>	
+	<table class="table">
+		<tr>
+		<td style="font-weight:bold;" width="53%"><label>NISN</label></td>
+		<td><input type="text" name="nisn" placeholder="NISN" /></td>
+		</tr>
+
+		<tr>
+	  	<td style="font-weight:bold;"><label>Asal Sekolah</label></td>
+		<td><input type="text" name="asal" placeholder="Asal Sekolah" /></td>
+		</tr>
+
+		<tr>
+	 	<td style="font-weight:bold;"><label>Tahun Lulus</label></td>
+		<td><input type="number" min="1990" max="2020" name="tahun lulus" placeholder="Tahun" /></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Lampiran foto ijazah</label></td>
+		<td><input type="file" name="ijazah"/></td>
+		</tr>
+	</table>
+	
+	<br>
+	<h2>DATA CALON PESERTA</h2>
+	<table class="table">
+		<tr>
+		<td style="font-weight:bold;" width="35%"><label>Nama Lengkap</label></td>
+		<td><input type="text" name="nama" placeholder="Nama Lengkap"></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>NIK</label></td>
+		<td><input type="text" name="nik" placeholder="NIK"></p></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Tempat Lahir</label></td>
+		<td><input type="text" name="lahir" placeholder="Tempat Lahir"></td>
+		<td><label>Tanggal Lahir</label></td>	
+	  	<td><input type="date" name="tanggal"/></td>
+		</tr>
+		
+		<tr>
+		<td style="font-weight:bold;"><label>Agama</label></td>
+		<td><select name="agama">
+			<option value="Islam">Islam</option>
+			<option value="Kristen">Kristen</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+			<option value="Katholik">Katholik</option>
+		</select></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Jenis Kelamin</label></td>
+		<td><label><input type="radio" name="jenis_kelamin" value="Laki-Laki"/>Laki-Laki</label></td>
+		<td><label><input type="radio" name="jenis_kelamin" value="Perempuan"/>Perempuan</label></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Foto Copy Akte Kelahiran Yang Telah Dilegalisir (Di lampirkan)</label></td>
+		<td><input type="file" name="akte"/></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Alamat</label></td>
+		<td><input type="text" name="desa" placeholder="Desa/Kelurahan"/></td>
+		<td><input type="text" name="kecamatan" placeholder="Kecamatan"/></td>
+		</tr>
+		<tr>
+		<td style="font-weight:bold;"><label></label></td>
+		<td><input type="text" name="kab" placeholder="Kabupaten"/></td>
+		<td><input type="text" name="prov" placeholder="Provinsi"/></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Email Aktif</label>
+  		<td><input type="text" name="email" placeholder="Email"/></td>
+	</table>
+
+	<br>
+	<h2>DATA ORANG TUA</h2>
+	<table class="table">
+		<tr>
+		<td style="font-weight:bold;" width="39.5%"><label>Nomor Kartu Keluarga</label></td>
+		<td><input type="text" name="kk" placeholder="Nomor KK"></td>
+		</tr>
+		
+		<tr>
+		<td style="font-weight:bold;"><label>Nama Ayah Kandung</label></td>
+		<td><input type="text" name="nama" placeholder="Nama Ayah Kandung"></td>
+		</tr>
+		
+		<tr>
+		<td style="font-weight:bold;"><label>Agama</label></td>
+		<td><select name="agama">
+			<option value="Islam">Islam</option>
+			<option value="Kristen">Kristen</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+			<option value="Katholik">Katholik</option>
+		</select></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Pekerjaan</label></td>
+		<td><input type="text" name="nama" placeholder="Pekerjaan"></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Nama Ibu Kandung</label></td>
+		<td><input type="text" name="nama" placeholder="Nama Ibu Kandung"></td>
+		</tr>
+		
+		<tr>
+			<td style="font-weight:bold;"><label>Agama</label></td>
+			<td><select name="agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+				<option value="Katholik">Katholik</option>
+			</select></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Pekerjaan</label></td>
+		<td><input type="text" name="nama" placeholder="Pekerjaan"></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Alamat</label></td>
+		<td><input type="text" name="desa" placeholder="Desa/Kelurahan"/></td>
+		<td><input type="text" name="kecamatan" placeholder="Kecamatan"/></td>
+		</tr>
+		<tr>
+		<td style="font-weight:bold;"><label></label></td>
+		<td><input type="text" name="kab" placeholder="Kabupaten"/></td>
+		<td><input type="text" name="prov" placeholder="Provinsi"/></td>
+		</tr>
+
+		<tr>
+		<td style="font-weight:bold;"><label>Kartu Keluarga (Dilampirkan)</label></td>
+		<td><input type="file" name="kk"/></td>
+		</tr>
+	</table>
+
+	<br><br>
+	<center><input type="submit" name="submit" value="Submit" /></center>
+	</form>
+</body>
+</html>
